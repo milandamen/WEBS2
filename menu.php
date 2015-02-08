@@ -1,7 +1,7 @@
 <nav>   
 	<ul id="menu">
 		<li class="top"><a href="index.php">Home</a></li>
-			<li class="top"><a href="#">Blog</a></li>
+			<li class="top"><a href="pages/blog/blog.php">Blog</a></li>
 		<li class="top">
 			<a href="#">Producten</a>
 			<ul class="submenu">
