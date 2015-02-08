@@ -39,7 +39,7 @@ $totalTime = $timeMilan + $timeCorina;
 			$what;
 			$date;
 			?>
-		<h3> Log <?php echo $date; ?> </h3>
+		<h4> Log <?php echo $date; ?> </h4>
 		<p> 
 		<table>
 		<tr> 
@@ -63,11 +63,40 @@ $totalTime = $timeMilan + $timeCorina;
 	</div>
 	-->
 
-		<div class="message">
+	<div class="message">
 		<?php 	$name = "Corina";
 			$time = 4;
 			$what = "Design opgezet, basis opzet php gemaakt, css toegepast";
 			$date = "08-02-2015";
+			?>
+		<h4> Log <?php echo $date; ?> </h4>
+		<p> 
+		<table>
+		<tr> 
+		 	<td><b>Datum</b> </td>
+			<td> <?php echo $date; ?> </td>
+		 </tr> 
+		 <tr> 
+		 	<td><b>Naam</b> </td>
+			<td> <?php echo $name; ?> </td>
+		 </tr> 
+		 <tr> 
+		 	<td><b>Bestede tijd</b> </td>
+			<td> <?php echo $time; ?> </td>
+		 </tr> 
+		 <tr> 
+		 	<td><b>Wat gedaan?</b> </td>
+			<td> <?php echo $what; ?> </td>
+		 </tr> 
+		</table>
+
+	</div>
+	
+	<div class="message">
+		<?php 	$name = 'Milan';
+			$time = 2;
+			$what = 'Geholpen met opzet';
+			$date = '08-02-2015';
 			?>
 		<h4> Log <?php echo $date; ?> </h4>
 		<p> 
