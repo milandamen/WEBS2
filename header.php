@@ -6,14 +6,19 @@
 	} else {
 		$pagetitle .= ' - ';
 	}
+
+	
 ?>
 <html>
 	<head>
 		<title><?php echo $pagetitle ?>110% Echt Bier!</title>
-		<base href="http://localhost/webs2/hw/">
+	<!-- @milan	<base href="http://localhost/webs2/hw/"> -->
+	<!-- @corina -->	<base href="http://localhost/WEBS2/WEBS2/">
+
 		<link rel="stylesheet" type="text/css" href="css/mainstyles.css" />
 	</head>
 	<body>
-		
-	</body>
+
+	<?php include('menu.php'); ?>
+
 </html>
