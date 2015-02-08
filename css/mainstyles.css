@@ -10,7 +10,7 @@ body{
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-	height: 90%;
+	height: 100%;
     width: 100%;
 }
 
@@ -20,6 +20,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
+	min-height: 100%;
 	background-color: #FFF;
 }
 
@@ -46,28 +47,50 @@ body{
 	margin-left: -50px;
 	margin-top: 10px;
 }
-
-#footerbar {
-
-}
-
 #content {
 	position: absolute;
 	padding: 20px;
 	margin-top: 10px;
 	margin-left: 30px;
 	width: 700px;
-	height: auto;
+	height: 1000px;
+	padding-bottom: 60px;
 }
+
+
 
 #sidebar{
 	width: 200px;
-	position: relative;
+	float: right;
 	display: block;
 	background-color: #F5F5F5;
-	height: 700;
-	float: right;
+	height: 1000px;
+
 }
+
+#footerbar {
+	float: right;
+ 	bottom: 0;
+	height: 200px;
+	background-color: gray;
+	width: 900px;
+	}
+
+#totals {
+	margin-top: auto;
+	height: 100px;
+}
+
+.message {
+	position: relative;
+	width: 600px;
+	padding: 30px 10px 10px 10px;
+	height: auto;
+	margin-top: 10px;
+	border-top: 1px solid black;
+}
+
+
 
 /* ****************  **************** **************** ****************    
 	
@@ -79,7 +102,7 @@ h1 {
 	font-size: 35px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-height: 0px;
+	line-height: 35px;
 	color:;
 }
 
@@ -87,7 +110,7 @@ h2 {
 	font-size: 30px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-height: 0px;
+	line-height: 30px;
 	color:;
 }
 
@@ -95,7 +118,7 @@ h3 {
 	font-size: 25px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-height: 0px;
+	line-height: 25px;
 	color:;
 }
 
@@ -103,7 +126,7 @@ h4 {
 	font-size: 20px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-height: 0px;
+	line-height: 20px;
 	color:;
 
 }
@@ -143,13 +166,12 @@ hr {
 
 
 nav {
-position: relative;
-margin-left: auto;
-margin-right: auto;
-width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
 	background-color: #42210B;
 	height:35px;
-
 	color: white;
 }
 
@@ -192,9 +214,6 @@ li:hover > ul {
 	background-color: #42210B;
 	margin-right: 15px;
 }
-
-
-
 
 ul.submenu {
 	position: relative;
