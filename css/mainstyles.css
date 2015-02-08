@@ -28,7 +28,7 @@ body{
 	position: relative;
 	display: block;
 	margin-left: 50px;
-	width: 800px;
+	width: 900px;
 	height: 100px;
 
 }
@@ -65,7 +65,7 @@ h1 {
 	font-size: 35px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-heigth: 0px;
+	line-height: 0px;
 	color:;
 }
 
@@ -73,7 +73,7 @@ h2 {
 	font-size: 30px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-heigth: 0px;
+	line-height: 0px;
 	color:;
 }
 
@@ -81,7 +81,7 @@ h3 {
 	font-size: 25px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-heigth: 0px;
+	line-height: 0px;
 	color:;
 }
 
@@ -89,8 +89,9 @@ h4 {
 	font-size: 20px;
 	font-weight: 800;
 	margin: 0px 0px 10px 0px;
-	line-heigth: 0px;
+	line-height: 0px;
 	color:;
+
 }
 
 hr {	

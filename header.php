@@ -24,11 +24,8 @@
 	<div id="headerbar">
 			
 
-		</div>
+	</div>
 
 
 
 	<?php include('menu.php'); ?>
-
-
-</html>
