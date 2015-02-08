@@ -29,6 +29,3 @@
 
 
 	<?php include('menu.php'); ?>
-
-
-</html>
