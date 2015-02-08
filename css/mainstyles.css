@@ -19,7 +19,7 @@ body{
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	width: 900px;
+	width: 990px;
 	min-height: 100%;
 	background-color: #FFF;
 }
@@ -29,7 +29,7 @@ body{
 	position: relative;
 	display: block;
 	margin-left: 50px;
-	width: 900px;
+	width: 990px;
 	height: 100px;
 
 }
@@ -73,13 +73,64 @@ body{
  	bottom: 0;
 	height: 200px;
 	background-color: gray;
-	width: 900px;
+	width: 990px;
 	}
 
 #totals {
 	margin-top: auto;
 	height: 100px;
 }
+
+.message {
+	position: relative;
+	width: 600px;
+	padding: 30px 10px 10px 10px;
+	height: auto;
+	margin-top: 10px;
+	border-top: 1px solid black;
+}
+
+
+.details {
+	width: auto;
+	padding: 10px 10px 10px 10px;
+}
+
+.prod_detailimg {
+	position: relative;
+	margin: 10px 10px 50px 10px;
+	float: left;
+	height: 200px;
+	width: 80px;
+
+}
+
+
+.buttondetail {
+	background-color:#7d5d3b;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:13px;
+	padding:2px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #4d3534;
+	margin: 5px 5px 5px 5px;
+	float: right;
+	height: 30px;
+}
+.buttondetail:hover {
+	background-color:#634b30;
+}
+.buttondetail:active {
+	position:relative;
+	top:1px;
+}
+
+
 
 .message {
 	position: relative;
@@ -120,6 +171,14 @@ h3 {
 	margin: 0px 0px 10px 0px;
 	line-height: 25px;
 	color:;
+}
+
+h6 {
+	font-size: 25px;
+	font-weight: 800;
+	margin: 0px 0px 10px 0px;
+	line-height: 25px;
+	float: right;
 }
 
 h4 {

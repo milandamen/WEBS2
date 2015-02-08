@@ -5,7 +5,7 @@
 		<li class="top">
 			<a href="#">Producten</a>
 			<ul class="submenu">
-				<li class="top"><a href="templates/detail.php">Detail X</a></li> 
+				<li class="top"><a href="pages/products/detail.php">Detail X</a></li> 
 			</ul>
 		</li> 
 		<li class="top"><a href="#">Zoek</a></li> 
