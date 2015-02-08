@@ -1,13 +1,10 @@
-<?php
-?>
-<html>
-
-<div id="footerbar">
+			<?php
+			?>
+			<div id="footerbar">
 
 
 
-</div>
-
-</body>
-	
+			</div>
+		</div> <!-- maincontent div -->
+	</body>
 </html>
