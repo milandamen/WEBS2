@@ -5,12 +5,12 @@
 <html>
 <?php include("header.php"); ?>
 
-<div id="maincontent">
+<div id="content">
 
 
 </div>
 
-
+	<?php include('sidebar.php'); ?>
 
 </html>
 

@@ -19,6 +19,16 @@
 	</head>
 	<body>
 
+	
+	<div id="maincontent">
+	<div id="headerbar">
+			
+
+		</div>
+
+
+
 	<?php include('menu.php'); ?>
+
 
 </html>

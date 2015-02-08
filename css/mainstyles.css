@@ -6,8 +6,7 @@
 **************** **************** **************** **************** */
 
 body{
-	/*background: #191919; */
-	background: #FFF;
+	background: #FFF; 
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
 	padding: 0;
@@ -16,7 +15,7 @@ body{
 }
 
 
-.maincontent {
+#maincontent {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -25,10 +24,36 @@ body{
 }
 
 
-.footerbar {
+#headerbar {
+	position: relative;
+	display: block;
+	margin-left: 50px;
+	width: 800px;
+	height: 100px;
 
 }
 
+#footerbar {
+
+}
+
+#content {
+	position: absolute;
+	padding: 20px;
+	margin-top: 10px;
+	margin-left: 30px;
+	width: 700px;
+	height: auto;
+}
+
+#sidebar{
+	width: 200px;
+	position: relative;
+	display: block;
+	background-color: #F5F5F5;
+	height: 700;
+	float: right;
+}
 
 /* ****************  **************** **************** ****************    
 	
