@@ -20,7 +20,7 @@ body{
 	margin-left: auto;
 	margin-right: auto;
 	width: 900px;
-	background-color: #F5F5F5;
+	background-color: #FFF;
 }
 
 
@@ -31,6 +31,20 @@ body{
 	width: 900px;
 	height: 100px;
 
+}
+
+#headerimg {
+	float: right;
+	margin-right: 50px;
+	width: 200px;
+	height:105px;
+
+}
+
+#logo {
+	float: left;
+	margin-left: -50px;
+	margin-top: 10px;
 }
 
 #footerbar {
@@ -99,6 +113,27 @@ hr {
 	
 }
 
+#menu {
+	font-size: : 10px;
+	line-height: 30px;
+	text-decoration: none;
+}
+
+#menu a, a:link, a:visited, a:hover, a:active {
+	color: white;
+	text-decoration: none;
+}
+
+#sidebar a , a:link, a:visited, a:active {
+	color: black;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#sidebar a:hover {
+	color: #D2B48C;
+}
+
 
 /* ****************  **************** **************** ****************    
 	
@@ -112,27 +147,26 @@ position: relative;
 margin-left: auto;
 margin-right: auto;
 width: 100%;
-	background-color: #FFF;
+	background-color: #42210B;
 	height:35px;
-	border-bottom: 1px solid black;
+
+	color: white;
 }
 
 
 ul#menu{ 	
 	position: relative;
-	width: 801px;	
+	margin-left:auto;
+	width: 900px;	
 	height: 30px;
 	list-style: none;
 	padding: 0px;
 	margin-top: 5px;
-	margin-left: auto;
 	text-align: center;
-
-
 }
 
 #menu li:hover {
-	background-color: white;
+	background-color: #42210B;
 	color: #000;
 		
 }
@@ -143,19 +177,19 @@ display: none;
 
 li:hover > ul {
 	display: block;
-	color: #000;
+	color: #42210B;
 }
 
 
 #menu li{ 
 	position: relative;
 	z-index: 2;
-	width: 160px;
+	width: 120px;
 	float: left;
 	height: 30px;
 	margin-left: 20px;
 	padding-top: 5px;
-	background-color: #FFF;
+	background-color: #42210B;
 	margin-right: 15px;
 }
 
@@ -167,9 +201,8 @@ ul.submenu {
 	width: 160px;
 	padding: 0px;
 	margin-left: -20px;
-	margin-top: 10px;
 	list-style: none;
-
+	background-color: #42210B;
 }
 
 
@@ -179,12 +212,10 @@ ul.submenu {
 .sidewidget {
 	
 	position: relative;
-	float: right;
-	padding: 10px;
+	list-style: none;
 	width: 200px;
 	height: 200px;
-	margin: 5px;
-	background-color: #ebebeb;
+	margin: 20px 5px 0px -15px;
 
 }
 
