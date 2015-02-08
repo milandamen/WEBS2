@@ -12,8 +12,11 @@
 <html>
 	<head>
 		<title><?php echo $pagetitle ?>110% Echt Bier!</title>
-		<!-- @milan	<base href="http://localhost/webs2/hw/"> -->
-		<!-- @corina -->	<base href="http://localhost/WEBS2/WEBS2/" src="http://localhost/WEBS2/WEBS2/">
+		<?php
+			$persoon = 'milan';
+			$baseurl = ($persoon === 'milan') ? 'http://localhost/webs2/hw/' : 'http://localhost/WEBS2/WEBS2/';
+		?>
+		<base href="<?php echo $baseurl ?>" src="<?php echo $baseurl ?>">
 		<link rel="stylesheet" type="text/css" href="css/mainstyles.css" />
 	</head>
 	<body>
