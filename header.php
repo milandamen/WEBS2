@@ -12,20 +12,13 @@
 <html>
 	<head>
 		<title><?php echo $pagetitle ?>110% Echt Bier!</title>
-	<!-- @milan	<base href="http://localhost/webs2/hw/"> -->
-	<!-- @corina -->	<base href="http://localhost/WEBS2/WEBS2/">
-
+		<!-- @milan	<base href="http://localhost/webs2/hw/"> -->
+		<!-- @corina -->	<base href="http://localhost/WEBS2/WEBS2/">
 		<link rel="stylesheet" type="text/css" href="css/mainstyles.css" />
 	</head>
 	<body>
-
-	
-	<div id="maincontent">
-	<div id="headerbar">
-			
-
-	</div>
-
-
-
-	<?php include('menu.php'); ?>
+		<div id="maincontent">
+			<div id="headerbar">
+				
+			</div>
+			<?php include('menu.php'); ?>
