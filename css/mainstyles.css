@@ -1,0 +1,167 @@
+
+/* ****************  **************** **************** ****************    
+	
+	Body Element Styling
+	
+**************** **************** **************** **************** */
+
+body{
+	/*background: #191919; */
+	background: #FFF;
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	height: 90%;
+    width: 100%;
+}
+
+
+.maincontent {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	background-color: #F5F5F5;
+}
+
+
+.footerbar {
+
+}
+
+
+/* ****************  **************** **************** ****************    
+	
+	Text Styling
+
+**************** **************** **************** **************** */
+
+h1 {
+	font-size: 35px;
+	font-weight: 800;
+	margin: 0px 0px 10px 0px;
+	line-heigth: 0px;
+	color:;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 800;
+	margin: 0px 0px 10px 0px;
+	line-heigth: 0px;
+	color:;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 800;
+	margin: 0px 0px 10px 0px;
+	line-heigth: 0px;
+	color:;
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 800;
+	margin: 0px 0px 10px 0px;
+	line-heigth: 0px;
+	color:;
+}
+
+hr {	
+	border-color: gray;
+	
+}
+
+
+/* ****************  **************** **************** ****************    
+	
+	Menu Styling
+
+**************** **************** **************** **************** */
+
+
+nav {
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+	background-color: #FFF;
+	height:35px;
+	border-bottom: 1px solid black;
+}
+
+
+ul#menu{ 	
+	position: relative;
+	width: 801px;	
+	height: 30px;
+	list-style: none;
+	padding: 0px;
+	margin-top: 5px;
+	margin-left: auto;
+	text-align: center;
+
+
+}
+
+#menu li:hover {
+	background-color: white;
+	color: #000;
+		
+}
+
+li > ul{ 
+display: none; 
+}
+
+li:hover > ul {
+	display: block;
+	color: #000;
+}
+
+
+#menu li{ 
+	position: relative;
+	z-index: 2;
+	width: 160px;
+	float: left;
+	height: 30px;
+	margin-left: 20px;
+	padding-top: 5px;
+	background-color: #FFF;
+	margin-right: 15px;
+}
+
+
+
+
+ul.submenu {
+	position: relative;
+	width: 160px;
+	padding: 0px;
+	margin-left: -20px;
+	margin-top: 10px;
+	list-style: none;
+
+}
+
+
+
+/* side menu */
+
+.sidewidget {
+	
+	position: relative;
+	float: right;
+	padding: 10px;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	background-color: #ebebeb;
+
+}
+
+
+
+

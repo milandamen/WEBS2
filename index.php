@@ -1,9 +1,6 @@
 <?php 
 
 
-require_once('data.php');
-
-
 ?>
 <html>
 <?php include("header.php"); ?>
