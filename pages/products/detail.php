@@ -8,7 +8,7 @@
 
 	<?php  
 
-	$productName = 'La Chouffe';
+	$productname = 'La Chouffe';
 	$sort = 'zwaar blond';
 	$contains = 0.75;
 	$alcohol = 8;
@@ -22,10 +22,10 @@
 			ware smaakexplosie.';
 
 	?>
-	<h6> <?php echo $productName ?> </h3>
+	<h6> <?php echo $productname ?> </h3>
 <div class="details">
 
-	<img class="prod_detailimg" src="pages/products/img/<? echo $productName ?>/<? echo $productName ?>.png" />
+	<img class="prod_detailimg" src="pages/products/img/<?php echo $productname ?>/<?php echo $productname ?>.png" />
 	<h4> Specificaties </h4>
 	<p> 
 		<table>
@@ -69,8 +69,5 @@
 
 </div>
 
-	<?php include('../../sidebar.php'); ?>
-
-
-
-<?php include('../../footer.php');
+<?php include('../../sidebar.php'); ?>
+<?php include('../../footer.php');  ?>
