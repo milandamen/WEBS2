@@ -42,11 +42,9 @@ class db {
 		$stmt = null;
 		if ($this->usesmartstmt && $this->isLastQuery($query)) {
 			$stmt = $this->laststmt;
-			echo 'last stmt';
 		} else {
 			$this->closeLastStatement();
 			$stmt = $this->database->prepare($query);
-			echo 'new stmt';
 		}
 		
 		foreach ($params as $key => $value) {

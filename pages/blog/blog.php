@@ -23,29 +23,30 @@ $totalTime = $timeMilan + $timeCorina;
 $db->dbClose();
 
 ?>
-<?php include("../../header.php"); ?>
+
+<?php $pagetitle = 'Blog';
+include("../../header.php"); ?>
 
 <div id="content">
 
 <h2> Blog </h2>
 
-
+<div id="start">
 <div id="blogform">
 	<form action="pages/blog/actions/submitlog.php" method="post">
 			<select name="name">
   			<option value="Corina">Corina</option>
   			<option value="Milan">Milan</option>
 		</select> 
+
 		<input name="hours" type="number" placeholder="Uren"/><br/> <br/>
 		<textarea name="work" placeholder="Work done" rows="5" cols="50"> </textarea>
 		<br/> <br/>
-		<input type="submit" value="Opslaan"/>
+		<input type="text" name="pass" placeholder="pass"/><input type="submit" value="Opslaan"/>
 	</form>
+
 </div>
-
-
-
-</br>
+	
 	<div id="totals">
 		<h3> Totalen </h3>
 		<table>
@@ -63,9 +64,10 @@ $db->dbClose();
 				<td> <? echo $totalTime ?> </td>
 			</tr>
 		</table>
-
-
 	</div>
+
+</div>
+
 <?php foreach($result as $key => $blogitem){  ?>
 	<div class="message">
 		<?php 	$name = $blogitem['name'];

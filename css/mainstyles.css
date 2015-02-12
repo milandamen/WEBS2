@@ -142,12 +142,20 @@ body{
 }
 
 #totals{
+	width: 100px;
 	float: right;
 }
 
 #blogform{
-	height: 150px;
+	height: 200px;
 	width: 200px;
+	float: left;
+}
+
+#start {
+	height: 200px;
+	width: 500px;
+	display: block;
 }
 
 
