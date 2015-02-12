@@ -8,7 +8,7 @@ $db = new db(true);
 //var_dump($result);
 //$result = $db->rowCountFromQuery('SELECT * FROM country');
 //var_dump($result);
-$result = $db->execQuery('SELECT * FROM session');
+$result = $db->execQuery('SELECT * FROM blog');
 var_dump($result);
 $db->dbClose();
 

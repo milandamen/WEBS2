@@ -14,7 +14,6 @@ if (!isset($_SESSION['alreadyinsession']) || $_SESSION['alreadyinsession'] == fa
 	$db->dbClose();
 	
 	$_SESSION['alreadyinsession'] = true;
-	
 } else {
 	// Continueing from old session
 }
