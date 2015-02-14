@@ -1,4 +1,5 @@
 <?php 
+include_once '../../assets/database_lib.php';
 
 
 ?>
