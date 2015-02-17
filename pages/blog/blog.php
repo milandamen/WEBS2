@@ -1,11 +1,9 @@
 <?php 
-
-
 include_once '../../assets/database_lib.php'; 
 date_default_timezone_set('UTC');
 
-$timeMilan =0;
-$timeCorina =0;
+$timeMilan = 0;
+$timeCorina = 0;
 
 $db = new db();
 $result = $db->execQuery('SELECT * FROM blog');
@@ -23,9 +21,10 @@ $totalTime = $timeMilan + $timeCorina;
 $db->dbClose();
 
 ?>
-
-<?php $pagetitle = 'Blog';
-include("../../header.php"); ?>
+<?php 
+$pagetitle = 'Blog';
+include("../../header.php"); 
+?>
 
 <div id="content">
 
