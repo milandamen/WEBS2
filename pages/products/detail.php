@@ -17,6 +17,7 @@ if (isset($_GET['id'])) {
 				w.name AS wrapping,
 				brw.name AS brewery,
 				c.name AS country,
+				b.img as image,
 				b.description AS description 
 			FROM beer AS b 
 			LEFT JOIN brand AS br 
@@ -49,7 +50,7 @@ if (isset($_GET['id'])) {
 <div id="content">
 	<h6><?php echo $product->name ?></h3>
 	<div class="details">
-		<img class="prod_detailimg" src="pages/products/img/<?php echo $product->name; ?>/<?php echo $product->name; ?>.png" />
+		<img class="prod_detailimg" src="pages/products/<?php echo $product-> brand . '/'. $product->image; ?>" />
 		<h4>Specificaties</h4>
 		<p> 
 			<table>

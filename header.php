@@ -13,11 +13,12 @@
 	<head>
 		<title><?php echo $pagetitle ?>110% Echt Bier!</title>
 		<?php
-			$persoon = 'milan';
+			$persoon = 'corina';
 			$baseurl = ($persoon === 'milan') ? 'http://localhost/webs2/hw/' : 'http://localhost/WEBS2/WEBS2/';
 		?>
 		<base href="<?php echo $baseurl ?>" src="<?php echo $baseurl ?>">
 		<link rel="stylesheet" type="text/css" href="css/mainstyles.css" />
+		<link rel="stylesheet" type="text/css" href="css/product.css" />
 	</head>
 	<body>
 		<div id="maincontent">
