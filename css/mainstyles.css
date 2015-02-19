@@ -5,7 +5,7 @@
 	
 **************** **************** **************** **************** */
 
-body{
+html,body{
 	background: #FFF; 
 	font-family: Helvetica, Arial, sans-serif;
 	margin: 0;
@@ -24,10 +24,16 @@ body{
 	background-color: #FFF;
 }
 
+#header{
+ 	height: 100px;
+ 	position: relative;
+	top: 0;
+}
 
 #headerbar {
 	position: relative;
 	display: block;
+	top: 0px;
 	margin-left: 50px;
 	width: 990px;
 	height: 100px;
@@ -48,33 +54,50 @@ body{
 	margin-top: 10px;
 }
 #content {
-	position: absolute;
+	position: relative;
 	padding: 20px;
 	margin-top: 10px;
 	margin-left: 30px;
 	width: 700px;
-	height: 1000px;
-	padding-bottom: 60px;
+	padding-bottom: 100px;
+	min-height: 100%;
+	float: left;
 }
 
 
 
 #sidebar{
+	position: relative;
 	width: 200px;
 	float: right;
-	display: block;
 	background-color: #F5F5F5;
-	height: 1000px;
+	padding-bottom: 100px;
+	min-height: 100%;
 
 }
 
 #footerbar {
-	float: right;
- 	bottom: 0;
-	height: 200px;
-	background-color: gray;
+	position: fixed;
+ 	bottom: 0px;
+	height: 100px;
+	background-color: #222222;
 	width: 990px;
-	}
+	color: white;
+}
+
+#footerbar .col {
+	position: relative;
+	float: left;
+	width: 200px;
+	height: 100px;
+}
+
+.footerbar-table{
+	position: relative;
+	margin-left: 200px;
+	margin-right: auto;
+}
+
 
 #totals {
 	margin-top: auto;
@@ -276,6 +299,13 @@ ul.submenu {
 
 
 
+/* ****************  **************** **************** ****************    
+	
+Other Styling
+
+**************** **************** **************** **************** */
+
+
 /* side menu */
 
 .sidewidget {
@@ -289,5 +319,78 @@ ul.submenu {
 }
 
 
+/* login menu */
 
+.login {
+	width: 160px;
+	height: 130px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 20px 10px 10px 30px;
+	background-color: rgba(107,52,11,0.8);
+	border-radius: 10px;
+}
+
+.login p{ 
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+.login .buttondetail {
+	background-color:  #42210B;
+	border-radius:3px;
+	border:1px solid #54381e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	padding:2px 10px;
+	text-decoration:none;
+	margin: 5px 5px 5px 5px;
+	float: right;
+	height: 20px;
+}
+
+
+/* ****************  **************** **************** ****************    
+	
+	List Styling
+
+**************** **************** **************** **************** */
+
+ul {
+	list-style: none;
+}
+
+ul li{
+	list-style: none;
+}
+
+
+
+/* ****************  **************** **************** ****************    
+	Contact Form Styling
+
+**************** **************** **************** **************** */
+
+
+.contactform {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	padding: 20px;
+	border: 1px dotted  rgba(107,52,11,0.8);
+	font-size: 12px;
+	color: black;
+	font-weight: bold;
+
+}
+
+
+.contactform textarea {
+
+}
 
