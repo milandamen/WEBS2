@@ -1,6 +1,7 @@
 <?php 
 include_once '../../assets/session_lib.php';
 include_once '../../assets/database_lib.php';
+include_once '../../assets/user_lib.php';
 
 $product;
 

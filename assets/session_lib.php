@@ -1,5 +1,5 @@
 <?php
-include_once 'database_lib.php';
+require_once 'database_lib.php';
 
 session_start();
 

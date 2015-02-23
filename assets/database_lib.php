@@ -1,6 +1,4 @@
-<?php 
-
-//TODO delcare/define
+<?php
 
 class db {
 	const FETCH_ASSOC = PDO::FETCH_ASSOC;	// Return fetch result as an associaive array.
