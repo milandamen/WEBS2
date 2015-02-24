@@ -1,0 +1,39 @@
+
+/* ****************  **************** **************** ****************    
+	
+	Shoppinglist Styling
+	
+**************** **************** **************** **************** */
+
+ .shoppinglist {
+	padding: 10px;
+	height: 200px;
+}
+
+
+.shoppinglist table{
+	width: 80%;
+	border: 2px solid #42210B;
+	color:  #42210B;
+	padding: 5px;
+}
+
+.shoppinglist th{
+	color:  #42210B;
+	text-align: left;
+		height: 25px;
+}
+
+
+.shoppinglist tr {
+	padding: 2px;
+	border-top: 1px solid black;
+
+
+}
+
+.shoppinglist td {
+	border-top: 1px dotted black;
+	height: 25px;
+
+}

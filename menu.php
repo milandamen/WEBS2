@@ -3,15 +3,12 @@
 		<li class="top"><a href="index.php">Home</a></li>
 			<li class="top"><a href="pages/blog/blog.php">Blog</a></li>
 		<li class="top">
-			<a href="#">Producten</a>
-			<ul class="submenu">
-				<li class="top"><a href="pages/products/detail.php">Detail X</a></li> 
-			</ul>
+			<a href="pages/products/">Producten</a>
 		</li> 
-		<li class="top"><a href="#">Zoek</a></li> 
-		<li class="top"><a href="#">Over ons</a>
+		<li class="top"><a href="pages/search.php">Zoek</a></li> 
+		<li class="top"><a href="pages/about/index.php">Over ons</a>
 			<ul class="submenu">
-				<li class="top"><a href="#"> Contact </a> </li>
+				<li class="top"><a href="pages/about/contact.php"> Contact </a> </li>
 			</ul>
 		</li>
 
